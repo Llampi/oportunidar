@@ -19,7 +19,18 @@
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
 		{% endif %}
+		    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		    <script type="text/javascript" src="http://app.stacktack.com/jquery.stacktack.min.js"></script><!-- This does not support HTTPS, so you might get a non-SSL block on HTTPS sites! -->
+		    <script type="text/javascript"> 
+			$(document).ready(function() {
+			    $(document).stacktack();
+			});
+		    </script>
+
 	</head>
+	
+	
+	
 	<body>
 		<header>
 			<div class="container">
@@ -28,6 +39,9 @@
 			</div>
 		</header>
 		{{ content }}
+		
+		<div id="stacktack-518021"></div>
+
 		<footer>
 			<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
