@@ -11,15 +11,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
-author:
+description: OportuniDar
+author: OportuniDar Team
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: OportuniDar
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    # - https://github.com/CloudCannon/hydra-jekyll-template
 
 # -----
 # Build
@@ -92,14 +92,14 @@ exclude:
 
 social_icons:
   - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
+  # - Google Plus
+  # - Instagram
+  # - LinkedIn
+  # - Pinterest
+  # - Tumblr
   - Twitter
   - YouTube
-  - RSS
+  # - RSS
 
 _comments:
   map: Update the map location and display settings.
