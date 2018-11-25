@@ -12,8 +12,8 @@ disqus_shortname:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: OportuniDar
-author: "OportuniDar Team"
-  name: "OportuniDar Team"
+author: OportuniDar
+  name: 
   email: oportunidar.peru@gmail.com
   twitter: # twitter username without the @ symbol
 social:
