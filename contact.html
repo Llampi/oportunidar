@@ -13,7 +13,7 @@ map:
 
 
 <div class="contact-box">
-	#<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+	
 	<form action="https://formspree.io/oportunidar.peru@gmail.com" method="POST">
 		<input type="hidden" name="_to" value="oportunidar.peru@gmail.com" />
 		<input type="text" name="_gotcha" style="display: none;">
@@ -22,12 +22,12 @@ map:
 		<input type="text" name="name" id="name" placeholder="Ingresa tu nombre..." />
 
 		<label for="email">Correo Electronico</label>
-		<input type="email" name="email" id="email" placeholder="Ingresa tu correo..." required />
+		<input type="email" name="_replyto" id="_replyto" placeholder="Ingresa tu correo..." required />
 
 		<label for="Message">Mensaje</label>
 		<textarea name="message" id="message" placeholder="Ingresa tu mensaje..."></textarea>
 
-		<input type="submit" value="Enviar Mensaje" />
+		<input type="submit" value="Send" />
 	</form>
 
 	<div class="contact-details">
